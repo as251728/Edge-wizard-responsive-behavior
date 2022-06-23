@@ -78,7 +78,7 @@ nav ul {
 
 .content {
   height: 100%;
-  padding: 24px;
+  /* padding: 24px; */
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
@@ -87,7 +87,7 @@ nav ul {
 .first-col {
   flex-basis: 25%;
   min-width: 240px;
-  margin-right: 24px;
+  margin: 24px;
 }
 
 .first-col-02 {
@@ -98,6 +98,10 @@ nav ul {
 .second-col {
   flex-grow: 1;
   display: flex;
+}
+
+.second-col-01 {
+  margin: 24px 0px;
 }
 
 .second-col-02 {
@@ -123,7 +127,7 @@ nav ul {
 
 .second-col-02 {
   background-color: #212121;
-  margin: -24px -24px -24px 0px;
+  margin-bottom: 0px;
   border-radius: 0px;
 }
 
@@ -144,8 +148,8 @@ nav ul {
   }
 
   .first-col-01 {
+    margin: 24px 0px 0px 0px;
     width: 100%;
-    margin-right: 0;
     height: auto;
     flex-basis: auto;
   }
@@ -159,6 +163,7 @@ nav ul {
   .content {
     width: 100%;
     margin: 0;
+    padding: 24px 24px;
   }
 
   .content-02 {
@@ -167,7 +172,7 @@ nav ul {
     min-width: none;
   }
 
-  .first-col-02 {
+  .first-col {
     margin: 0px;
   }
 
