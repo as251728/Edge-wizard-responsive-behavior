@@ -123,6 +123,8 @@ nav ul {
 
 .second-col-02 {
   background-color: #212121;
+  margin: -24px -24px -24px 0px;
+  border-radius: 0px;
 }
 
 /* BREAKPOINTS */
